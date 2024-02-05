@@ -16,8 +16,7 @@ public class AddToCart {
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/seleniumPractise/");
 	
-		
-		// for Cucumber=>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+		//for Cucumber=>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 		
 	List<WebElement> products=	driver.findElements(By.cssSelector("div[class='product']"));
 	
